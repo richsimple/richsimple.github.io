@@ -1090,18 +1090,18 @@ summary {
   padding: 0 16px;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
   max-width: 768px;
   margin: 0 auto;
   box-shadow: inset 0px -1px 0px #fafafa;
 }
-.site-header .left {
+.site-header .center {
   display: flex;
 }
-.site-header .left .avatar {
+.site-header .center .avatar {
   border-radius: 50%;
 }
-.site-header .left .site-title {
+.site-header .center .site-title {
   margin: 0 16px;
   font-size: 24px;
   line-height: 32px;
